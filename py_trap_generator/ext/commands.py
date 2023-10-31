@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from py_trap_generator.ext.auth import create_user
+from py_trap_generator.ext.database import db
+from py_trap_generator.models import Product
 
 
 def create_db():
